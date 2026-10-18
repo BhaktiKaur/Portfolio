@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bhakti Kaur | Portfolio</title>
+  <meta name="description" content="Portfolio of Bhakti Kaur, MBA Tech Data Science student at NMIMS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav" id="nav">
+    <a href="#top" class="logo">BK<span>.</span></a>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-text">
+        <p class="kicker reveal">MBA Tech Data Science · NMIMS</p>
+        <h1 class="reveal">Bhakti<br><em>Kaur</em></h1>
+        <p class="hero-sub reveal">I find patterns in data, then turn them into answers.</p>
+        <div class="hero-btns reveal">
+          <a href="#work" class="btn solid">See my work</a>
+          <a href="#contact" class="btn line">Say hello</a>
+        </div>
+      </div>
+
+      <div class="cube-wrap reveal">
+        <div class="cube" id="cube" role="button" tabindex="0" aria-label="Scramble or solve the cube"></div>
+        <p class="cube-hint" id="cubeHint">Tap the cube to scramble it</p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>Data Analysis</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>Research</span><i>✦</i><span>Music</span><i>✦</i><span>Travel</span><i>✦</i><span>Rubik's Cube &lt; 2 min</span><i>✦</i>
+        <span>Data Analysis</span><i>✦</i><span>Machine Learning</span><i>✦</i><span>Research</span><i>✦</i><span>Music</span><i>✦</i><span>Travel</span><i>✦</i><span>Rubik's Cube &lt; 2 min</span><i>✦</i>
+      </div>
+    </div>
+
+    <section id="about" class="section about">
+      <h2 class="section-title reveal"><span>01</span>About</h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p class="lead">I'm Bhakti Kaur, an MBA Tech Data Science student at NMIMS.</p>
+          <p>I work with data analysis and machine learning, and I've published research along the way. I love learning new things, whether that's a new tool, a new idea or a faster way to solve a cube.</p>
+          <p>Outside class I enjoy travelling and exploring new places, and there's almost always music playing wherever I am.</p>
+        </div>
+        <aside class="fact reveal">
+          <p class="fact-label">Fun fact</p>
+          <p class="fact-big">&lt; 2:00</p>
+          <p>That's how long it takes me to solve a Rubik's cube.</p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="work" class="section">
+      <h2 class="section-title reveal"><span>02</span>Selected Work</h2>
+      <div class="work-list">
+        <article class="work-item reveal">
+          <span class="work-no">01</span>
+          <div class="work-body">
+            <p class="work-type">Published Research · IJCISIM</p>
+            <h3>Research Paper</h3>
+            <p>Published in the International Journal of Computer Information Systems and Industrial Management Applications.</p>
+          </div>
+          <a class="work-link" href="https://cspub-ijcisim.org/index.php/ijcisim/article/view/4773" target="_blank" rel="noopener">Read paper ↗</a>
+        </article>
+        <article class="work-item reveal">
+          <span class="work-no">02</span>
+          <div class="work-body">
+            <p class="work-type">Hobby · Speedcubing</p>
+            <h3>Rubik's Cube in Under 2 Minutes</h3>
+            <p>Learning solving algorithms and practising until a full solve takes less than two minutes. Try the cube at the top of this page.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <h2 class="section-title reveal"><span>03</span>Skills &amp; Interests</h2>
+      <div class="skills-grid">
+        <div class="skill-card reveal">
+          <span class="skill-icon">◆</span>
+          <h3>Data Analysis</h3>
+          <p>Cleaning, exploring and making sense of data.</p>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">◆</span>
+          <h3>Machine Learning</h3>
+          <p>Building models that learn from data.</p>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">♪</span>
+          <h3>Music</h3>
+          <p>Always part of my day.</p>
+        </div>
+        <div class="skill-card reveal">
+          <span class="skill-icon">▦</span>
+          <h3>Rubik's Cube</h3>
+          <p>Solved in under two minutes.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <h2 class="section-title reveal"><span>04</span>Contact</h2>
+      <div class="contact-box reveal">
+        <p class="contact-big">Let's talk data,<br><em>or music.</em></p>
+        <a class="mail" href="mailto:bhaks786@gmail.com">bhaks786@gmail.com</a>
+        <button class="copy-btn" id="copyBtn" data-copy="bhaks786@gmail.com">Copy email</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Bhakti Kaur</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
